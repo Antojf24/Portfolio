@@ -1,0 +1,185 @@
+:root{
+    --fondo: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 100%);
+    --color: #D9D9D9;
+    --colorAlt: #181A1B;
+    --fuente: Verdana;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--fondo);
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+}
+
+.contactos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+    height: 5vh;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 5vh;
+}
+
+.fondo-negro{
+    color: var(--color);
+    min-height: 60vh;
+    display: flex;
+}
+
+.fondo-blanco{
+    background: var(--color);
+    color: var(--colorAtl);
+    height: 45vh;
+}
+
+#seccion1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#seccion1 div{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+#seccion2 h2{
+    padding: 25px;
+}
+
+#seccion2 div{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#seccion2 div div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#seccion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+#seccion3 div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#seccion3 .proyectos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 25px;
+}
+
+#seccion3 .proyecto{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#seccion3 .proyecto-oculto{
+    display: none;
+}
+
+.proyecto img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#seccion4{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 0px 0px;
+}
+
+#seccion4 div{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion4 div h2{
+    padding: 15px 0px;
+}
+
+a{
+    color: var(--color);
+    text-decoration: none;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+
+#ejemplo{
+    width: 400px;
+    height: auto;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+button{
+    background-color: var(--colorAlt);
+    border: 3px solid var(--color);
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 25vh;
+    color: var(--color);
+}
