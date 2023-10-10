@@ -112,6 +112,10 @@ nav{
     gap: 25px;
 }
 
+#seccion3 #desplegable{
+    cursor: pointer;
+}
+
 #seccion3 .proyecto{
     width: 150px;
     height: 200px;
